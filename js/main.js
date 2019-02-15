@@ -8,7 +8,7 @@ var mymap = L.map('map', {
 });
 
 // 2. Add a base map.
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mymap);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mymap);
 
 L.tileLayer('wallowa/{z}/{x}/{y}.png', {
     maxZoom: 9,
